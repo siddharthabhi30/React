@@ -1,1 +1,4 @@
 npx tailwind init --full
+npx tailwindcss init
+
+npm run build-css
