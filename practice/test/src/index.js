@@ -39,25 +39,27 @@ class Check extends React.Component{
         );
     }
     renderApp(){
+        console.log("occured here")
         return(
             <App/>
         );
     }
     render(){
+        console.log("occured")
         return(
             <div>
            
              <div>
-                {this.renderList(1)}
+                {this.renderList()}
                 </div>
 
             <div>
            
-           {this.renderApp(3)}
+           {this.renderApp()}
             </div>
             <div>
            
-          <Greet/>
+          <Greet onClick={()=>this.renderApp()}/>
             </div>
                             
             </div>
