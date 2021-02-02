@@ -1,0 +1,14 @@
+{
+    "emmet.extensionsPath": "",
+    "emmet.syntaxProfiles": {
+    
+    },
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+     },
+    "emmet.excludeLanguages": [
+
+
+        "markdown"
+    ]
+}

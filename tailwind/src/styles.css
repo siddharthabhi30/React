@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @tailwind base;
 
 @tailwind components;
@@ -17,3 +18,12 @@
 .btn{
     @apply rounded-full py-2 px-3 uppercase text-xs font-bold tracking-wider cursor-pointer;
   }
+=======
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+>>>>>>> f53aa520227096c52aaa79c2ef21bb41ccc2e269
